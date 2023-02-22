@@ -47,7 +47,7 @@ impl Drop for List {
     }
 }
 
-#[cfg(Test)]
+#[cfg(test)]
 mod test {
     use super::List;
 
